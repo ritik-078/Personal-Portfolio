@@ -1,9 +1,18 @@
 import React, { useState } from "react";
 import Dropdown from "../Dropdown/Dropdown";
 import Header from "../Header/Header";
+import { FaLinkedin,FaGithub } from "react-icons/fa";
+import {
+  MainContainer,
+  MainWrapper,
+  MainLeft,
+  MainRight,
+  Image,
+  MainC,
+} from "./MainElements";
+import aboutImg from "../../Assets/about-img.png";
 
-
-function Hero() {
+function Main() {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => {
@@ -14,8 +23,44 @@ function Hero() {
       <Dropdown isOpen={isOpen} toggle={toggle} />
       <Header toggle={toggle} />
       
+      <MainContainer>
+        <MainWrapper>
+          
+          <MainLeft>
+            <h1>RITIK BHATELEY
+            </h1>
+            <h5>Frontend Developer</h5>
+            <p>
+              I design and code.
+            </p>
+            <MainC>
+              <a
+                href="https://www.linkedin.com/in/ritik-bhateley/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaLinkedin />
+              </a>
+              <a
+                href="https://github.com/ritik-078/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaGithub />
+              </a>
+            </MainC>
+          </MainLeft>
+          <MainRight>
+            <Image
+              src={aboutImg}
+              alt="man-svgrepo"
+            />
+          </MainRight>
+        </MainWrapper>
+      </MainContainer>
+
     </main>
   );
 }
 
-export default Hero;
+export default Main;
