@@ -27,7 +27,8 @@ function Main() {
         <MainWrapper>
           
           <MainLeft>
-            <h1>RITIK BHATELEY
+            <h1>Ritik Bhateley
+
             </h1>
             <h5>Frontend Developer</h5>
             <p>

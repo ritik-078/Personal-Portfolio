@@ -17,7 +17,7 @@ function Contact() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Send Mail
+              Send Mai
             </a>
           </Email>
           <LinkedIn>
