@@ -15,19 +15,20 @@ export const Nav = styled.nav`
 export const NavLink = styled(ScrollLink)`
   color: rgb(119, 119, 121);
   display: flex;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   align-items: center;
   height: 100%;
   cursor: pointer;
-  
+  margin-left: 8px;
+  margin-right: 8px;
   &:hover {
     color: #f6f6f6;
   }
 `;
 export const Logo = styled(LinkRouter)`
   img {
-    width: 47px;
-    height: 47px;
+    width: 50px;
+    height: 50px;
   }
 `;
 
@@ -45,7 +46,6 @@ export const NavMenu = styled.div`
   display: flex;
   align-items: center;
   margin-right: -24px;
-
   .menu-item + .menu-item {
     margin-left: 1rem;
   }

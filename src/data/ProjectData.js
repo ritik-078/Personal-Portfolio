@@ -12,10 +12,4 @@ export const ProjectList = [
 ];
 
 
-export const stackList = [
-  {
-    img: "C:/Users/Ritik/Desktop/portfolio-react-master/src/SVG-img/html5.svg",
-    name: "HTML",
-  },
-  
-];
+

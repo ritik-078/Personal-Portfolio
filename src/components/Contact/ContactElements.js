@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ContactWrapper = styled.div`
-  margin: 5rem 0;
+  margin: 10rem 0;
 `;
 
 export const Email = styled.div`
@@ -9,11 +9,15 @@ export const Email = styled.div`
   align-items: center;
   flex-direction: column;
   justify-content: space-around;
-
+  margin-top: 2rem;
+  
   span {
     font-size: 1rem;
     font-weight: 400;
     margin-bottom: 1rem;
+    &:hover {
+      font-weight: 420;
+    }
   }
 
   @media (min-width: 576px) {
@@ -35,7 +39,7 @@ export const LinkedIn = styled.div`
   flex-direction: row;
   margin-left: 3rem;
   a {
-    font-size: 2rem;
+    font-size: 3rem;
     color: #000009;
     transition: 0.2s ease-in;
     margin-top: 2rem;

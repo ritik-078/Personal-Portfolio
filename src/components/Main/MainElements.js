@@ -19,6 +19,7 @@ export const MainContainer = styled.div`
   }
   @media (min-width: 992px) {
     max-width: 960px;
+    padding-top: 9rem;
   }
   @media (min-width: 1200px) {
     max-width: 1000px;
@@ -39,7 +40,7 @@ export const MainC = styled.div`
   flex-direction: row;
 
   a {
-    font-size: 2rem;
+    font-size: 2.7rem;
     color: rgb(119, 119, 121);
     transition: 0.2s ease-in;
     margin-top: 2rem;
@@ -60,39 +61,45 @@ export const MainLeft = styled.div`
   flex: 1;
 
   h1 {
-    font-size: 2.8rem;
+    font-size: 3.2rem;
     color: #f6f6f6;
     opacity: 0.98;
     font-weight: 400;
   }
 
   h5 {
-    font-size: 1.6rem;
+    font-size: 2rem;
     color: rgb(119, 119, 121);
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     font-weight: 400;
   }
 
   p {
-    font-size: 17px;
+    font-size: 20px;
     color: #f6f6f6;
     opacity: 0.85;
   }
 
-  @media screen and (max-width: 992px) {
+  @media screen and (max-width: 1112px) {
     text-align: center;
     align-items: center;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
   }
 `;
 
 export const MainRight = styled.div`
   flex: 1;
-  justify-content: center;
+  justify-content: end;
   display: flex;
+  @media screen and (max-width: 1112px) {
+    justify-content: center;
+  }
 `;
 
 export const Image = styled.img`
-  height: 250px;
+  height: 330px;
   width: auto;
+  @media screen and (max-width: 1024px) {
+    height: 250px;
+  }
 `;

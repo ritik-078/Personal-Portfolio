@@ -1,18 +1,20 @@
 import styled from "styled-components";
 
-export const ContactWrapper = styled.div`
-  margin-top: 5rem;
+export const AboutWrapper = styled.div`
+  margin-top: 10rem;
+  width: 100%;
 `;
 
 export const College = styled.div`
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 3rem;
   margin-bottom: 2rem;
   
   .name{
     font-weight: 600;
+    font-size: 1.2rem;
   }
 
   .branch{

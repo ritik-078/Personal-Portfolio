@@ -27,13 +27,10 @@ function Main() {
         <MainWrapper>
           
           <MainLeft>
-            <h1>Ritik Bhateley
-
-            </h1>
-            <h5>Frontend Developer</h5>
-            <p>
-              I design and code.
-            </p>
+            <h1>Ritik Bhateley</h1>
+            <h5>Web Developer</h5>
+            <p>Enthusiastic Computer Engineering student</p>
+            <p>Aspiring Software Engineer.</p>
             <MainC>
               <a
                 href="https://www.linkedin.com/in/ritik-bhateley/"

@@ -9,7 +9,7 @@ function Contact() {
       <div className="Container">
         <div className="SectionTitle">Get In Touch</div>
         <div className="BigCard">
-          <Email>
+          <Email> 
             <span>ritikbhateley@gmail.com</span>
             <a
               className="btn PrimaryBtn"
@@ -17,7 +17,7 @@ function Contact() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Send Mai
+              Send Mail
             </a>
           </Email>
           <LinkedIn>
