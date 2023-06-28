@@ -56,7 +56,6 @@ function Main() {
           </MainRight>
         </MainWrapper>
       </MainContainer>
-
     </main>
   );
 }

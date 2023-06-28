@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Card = styled.div`
   display: grid;
   grid-gap: 2rem;
+  margin-top: 7rem;
   margin-bottom: 4rem;
   grid-template-columns: 1fr;
   border-bottom: 1px solid rgb(0, 0, 0);

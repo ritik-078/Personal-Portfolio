@@ -1,8 +1,17 @@
 import React from "react";
 import ProjectCard from "./ProjectCard/ProjectCard";
+import styled from "styled-components";
+
+export const Project = styled.div`
+  background: #f5f5ef;
+  width: 100%;
+  margin-bottom: -4rem;
+`;
+
+
 function Projects() {
   return (
-    <>
+    <Project>
       <svg
         height="100%"
         width="100%"
@@ -26,7 +35,7 @@ function Projects() {
           <ProjectCard />
         </div>
       </div>
-    </>
+    </Project>
   );
 }
 

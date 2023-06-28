@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const AboutWrapper = styled.div`
-  margin-top: 10rem;
+  margin-top: -2rem;
   width: 100%;
 `;
 
