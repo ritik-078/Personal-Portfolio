@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Card = styled.div`
   display: grid;
-  grid-gap: 2rem;
+  grid-gap: 3.5rem;
   margin-top: 7rem;
   margin-bottom: 4rem;
   grid-template-columns: 1fr;
@@ -34,7 +34,7 @@ export const CardRight = styled.div`
   align-items: center;
 
   h4 {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-weight: 400;
   }
 

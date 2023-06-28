@@ -1,11 +1,4 @@
 import React from "react";
-import  cpp from "./SVG-img/cpp.svg";
-import  css3 from "./SVG-img/css3.svg";
-import  html5 from "./SVG-img/html5.svg";
-import  git from "./SVG-img/git.svg";
-import  js from "./SVG-img/javascript.svg";
-import  react from "./SVG-img/react.svg";
-import  responsive from "./SVG-img/responsive.svg";
 
 import {
   Image,
@@ -17,7 +10,8 @@ import {
   AboutWrapper
 } from "./AboutElements";
 
-import aboutImg from "../../Assets/about-img.png"
+import List from "../About/SVG-img/svgData";
+import aboutImg from "../../Assets/about-img.png";
 
 function About() {
   return (
@@ -67,36 +61,13 @@ function About() {
               I have become confident using the following technologies.
             </div>
             <Technologies>
-                <Tech index="1" className="tech">
-                  <TechImg src= {cpp} alt="C++" />
-                  <TechName>C++</TechName>
-                </Tech>
-                <Tech index="1" className="tech">
-                  <TechImg src= {html5} alt="HTML5" />
-                  <TechName>HTML5</TechName>
-                </Tech>
-                <Tech index="1" className="tech">
-                  <TechImg src= {css3} alt="css3" />
-                  <TechName>CSS</TechName>
-                </Tech>
-                <Tech index="1" className="tech">
-                  <TechImg src= {js} alt="JS" />
-                  <TechName>JavaScript</TechName>
-                </Tech>
-                <Tech index="1" className="tech">
-                  <TechImg src= {git} alt="git" />
-                  <TechName>Git</TechName>
-                </Tech>
-                <Tech index="1" className="tech">
-                  <TechImg src= {react} alt="React" />
-                  <TechName>React</TechName>
-                </Tech>
-                <Tech index="1" className="tech">
-                  <TechImg src= {responsive} alt="responsive" />
-                  <TechName>Responsive</TechName>
-                </Tech>
-              
-            </Technologies>
+            {List.map((stack, index) => (
+              <Tech key={index} className="tech">
+                <TechImg src={stack.img} alt={stack.name} />
+                <TechName>{stack.name}</TechName>
+              </Tech>
+            ))}
+          </Technologies>
           </div>
         </div>
       </AboutWrapper>
