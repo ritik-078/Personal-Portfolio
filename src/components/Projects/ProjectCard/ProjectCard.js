@@ -1,5 +1,5 @@
 import React from "react";
-import { ProjectList } from "../../../data/ProjectData";
+import { ProjectList } from "../data/ProjectData";
 import {
   Card,
   CardLeft,

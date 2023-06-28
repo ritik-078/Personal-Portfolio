@@ -1,5 +1,5 @@
-import MusicPlayer from "../data/MusicPlayer.JPG";
-import MyNotes from "../data/MyNotes.JPG";
+import MusicPlayer from "./MusicPlayer.JPG";
+import MyNotes from "./MyNotes.JPG";
 
 export const ProjectList = [
   {
@@ -14,7 +14,7 @@ export const ProjectList = [
   {
     img: MusicPlayer,
     title: "Music Player",
-    description: "A music player created using HTML, CSS, and JS that allows users to play, pause, and navigate through songs, providing an interactive and visually appealing experience.",
+    description: "The music player project is a web-based application created using HTML, CSS, and JavaScript. The project utilizes event listeners and functions to handle user interactions and update the DOM dynamically. ",
     tech_stack: "HTML, CSS, JavaScript",
     github_url: "https://github.com/ritik-078/Music-Player",
     demo_url: "https://ritik-078.github.io/Music-Player/",
