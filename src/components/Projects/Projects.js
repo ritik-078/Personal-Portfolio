@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard/ProjectCard";
 import styled from "styled-components";
 
 export const Project = styled.div`
-  background: #f5f5ef;
+  background: #F2F2F2;
   width: 100%;
   margin-bottom: -4rem;
 `;

@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 export const ContactWrapper = styled.div`
-  margin: 10rem 0;
+  margin-top: 10rem;
+  margin-bottom: 4rem;
 `;
 
 export const Email = styled.div`
@@ -22,7 +23,7 @@ export const Email = styled.div`
 
   @media (min-width: 576px) {
     span {
-      font-size: 1.5rem;
+      font-size: 2rem;
     }
   }
   @media (min-width: 992px) {
@@ -46,6 +47,12 @@ export const LinkedIn = styled.div`
     margin-right: 3rem;
     &:hover {
       color: rgb(57, 134, 250);
+    }
+  }
+  @media (max-width: 992px) {
+    justify-content: center;
+    a {
+      font-size: 2rem;
     }
   }
   

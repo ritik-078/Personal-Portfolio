@@ -6,7 +6,7 @@ const Header = ({ toggle }) => {
   return (
     <div className="Container">
       <Nav>
-        <Logo to="/">
+        <Logo to="projects">
           <img
             src={logo}
             alt="logo"

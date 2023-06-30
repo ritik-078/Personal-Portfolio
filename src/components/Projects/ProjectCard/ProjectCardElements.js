@@ -2,11 +2,10 @@ import styled from "styled-components";
 
 export const Card = styled.div`
   display: grid;
-  grid-gap: 3.5rem;
+  grid-gap: 4rem;
   margin-top: 7rem;
   margin-bottom: 4rem;
   grid-template-columns: 1fr;
-  border-bottom: 1px solid rgb(0, 0, 0);
   padding-bottom: 2rem;
   @media (min-width: 992px) {
     grid-template-columns: 1fr 1fr;
@@ -20,7 +19,7 @@ export const CardLeft = styled.div`
   border-radius: 5px;
   padding: 5px;
   justify-self: center;
-
+  align-self: center;
   img {
     border-radius: 3px;
     height: auto;
@@ -74,7 +73,7 @@ export const Stack = styled.div`
 `;
 
 export const BtnGroup = styled.div`
-  height: 70px;
+  height: 60px;
   display: flex;
   align-items: center;
 `;
