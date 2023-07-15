@@ -62,9 +62,27 @@ export const MainLeft = styled.div`
 
   h1 {
     font-size: 3.2rem;
-    color: #f6f6f6;
     opacity: 0.98;
-    font-weight: 400;
+    font-weight: 500;
+  }
+
+  .neon{
+    color: #ffffff;
+    animation: glow 800ms infinite alternate;
+  }
+
+  @keyframes glow{
+    from{
+      text-shadow: 0 0 10px #1877f2,
+      0 0 20px #1459b3,
+      0 0 30px #179bff;
+    }
+    to{
+      text-shadow: 0 0 5px #1877f2,
+      0 0 10px #1459b3,
+      0 0 15px #179bff;
+    }
+
   }
 
   h5 {

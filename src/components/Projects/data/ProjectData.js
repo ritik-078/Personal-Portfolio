@@ -1,17 +1,26 @@
 import MusicPlayer from "./MusicPlayer.JPG";
 import MyNotes from "./MyNotes.JPG";
 import Game from "./2048Game.JPG";
+import Shortenite from "./Shortenite.JPG";
+import Portfolio from "./Portfolio.JPG";
 
 export const ProjectList = [
   {
-    img: MyNotes,
+    img: Shortenite,
+    title: "Shortenite",
+    description: "Developed a professional and visually engaging personal portfolio website using React, showcasing my skills, projects, and experience. Integrated responsive design, CSS frameworks for a modern and seamless user experience.",
+    tech_stack: "HTML, CSS, JavaScript, React",
+    github_url: "https://github.com/ritik-078/shortenite",
+    demo_url: "",
+  },
+  {
+    img: Portfolio,
     title: "Personal Portfolio",
     description: "Developed a professional and visually engaging personal portfolio website using React, showcasing my skills, projects, and experience. Integrated responsive design, CSS frameworks for a modern and seamless user experience.",
     tech_stack: "HTML, CSS, JavaScript, React",
     github_url: "https://github.com/ritik-078/Personal-Portfolio",
     demo_url: "",
   },
-  
   {
     img: MyNotes,
     title: "My Notes",
@@ -37,8 +46,7 @@ export const ProjectList = [
     tech_stack: "HTML, CSS, JavaScript",
     github_url: "https://github.com/ritik-078/2048-GAME",
     demo_url: "",
-  },
-  
+  }
   
 ];
 
