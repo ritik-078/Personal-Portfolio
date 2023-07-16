@@ -11,7 +11,7 @@ export const ProjectList = [
     description: "Developed a professional and visually engaging personal portfolio website using React, showcasing my skills, projects, and experience. Integrated responsive design, CSS frameworks for a modern and seamless user experience.",
     tech_stack: "HTML, CSS, JavaScript, React",
     github_url: "https://github.com/ritik-078/shortenite",
-    demo_url: "",
+    demo_url: "http://localhost/",
   },
   {
     img: Portfolio,

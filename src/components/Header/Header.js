@@ -26,7 +26,7 @@ const Header = ({ toggle }) => {
         <NavBtn>
           <a
             className="btn PrimaryBtn"
-            href="https://github.com/ritik-078/"
+            href="https://drive.google.com/file/d/12_8e6xo4-W8TMoUlmx2xnbMjIAAtlj6f/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
