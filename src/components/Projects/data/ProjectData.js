@@ -8,8 +8,8 @@ export const ProjectList = [
   {
     img: Shortenite,
     title: "Shortenite",
-    description: "Developed a web application for URL shortening, QR code generation and detailed link analytics.",
-    tech_stack: "HTML, CSS, JavaScript, React, NodeJS, Express, MongoDB",
+    description: "Developed a web application for URL shortening, QR code generation and detailed link analytics.Shortenite is a link shortening website that revolutionizes the way we manage and share URLs.Users can generate dynamic QR codes for their shortened links, itoffers detailed link analytics, empowering users to track engagement, monitor click-through rates.",
+    tech_stack: " JavaScript, React, NodeJS, Express, MongoDB",
     github_url: "https://github.com/ritik-078/shortenite",
     demo_url: "https://github.com/ritik-078/shortenite",
   },

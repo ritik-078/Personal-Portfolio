@@ -63,7 +63,7 @@ export const Stack = styled.div`
   .stackTitle {
     font-weight: 500;
     margin-right: 10px;
-    font-size: 17px;
+    font-size: 15px;
   }
 
   .tags {
