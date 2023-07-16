@@ -5,11 +5,10 @@ Welcome to my personal portfolio project! This website is designed to showcase m
 ### Website Preview
 <p align="center"> 
   <kbd>
-    <a href="" target="_blank"><img src="">
+    <a href="https://ritik-078.github.io/Personal-Portfolio/" target="_blank"><img src="src/Assets/Portfolio.JPG">
   </a>
   </kbd>
 </p>
-
 
 ## Features 🌟
 
